@@ -1,29 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T13:43:54.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="vOfTfgAfYHjP_0zrTZxn" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T14:22:24.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="D8nXtULJD0sL8O5NqgcS" version="21.6.8" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="374" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-1" value="Pull data from Thresher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-1" value="&amp;nbsp; &amp;nbsp; Data Gathering" style="rounded=0;whiteSpace=wrap;html=1;shape=step;perimeter=stepPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-2" value="Aggregate Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-2" value="Data&lt;br&gt;Aggregation" style="rounded=0;whiteSpace=wrap;html=1;shape=step;perimeter=stepPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-3" value="Data Cleaning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-4" value="Preprocessing (Transformers)" style="rounded=0;whiteSpace=wrap;html=1;shape=step;perimeter=stepPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-4" value="Preprocessing (Transformers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-5" value="Classifiers" style="rounded=0;whiteSpace=wrap;html=1;shape=step;perimeter=stepPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-5" value="Classifiers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-7" value="&amp;nbsp; &amp;nbsp; Postprocessing" style="rounded=0;whiteSpace=wrap;html=1;shape=step;perimeter=stepPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-7" value="Postprocessing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-8" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;shape=step;perimeter=stepPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-cWEQYW-wMEr-QUB3o1_-8" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-9" value="Group by TrackId" style="shape=process;whiteSpace=wrap;html=1;fixedSize=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-10" value="DataFrame" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-11" value="Get Unique Values per Attribute" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-12" value="Convert to&lt;br&gt;Linestring" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-15" value="Final Dataset" style="rounded=1;whiteSpace=wrap;html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-17" value="Output PKL File" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-18" value="Resizer" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-19" value="Time Converter" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-20" value="Duplicate Time Column" style="shape=process;whiteSpace=wrap;html=1;fixedSize=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-21" value="Histograms Generator" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-22" value="Encoders" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-23" value="1 and 1b" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-24" value="2 and 3" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-25" value="5" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-26" value="6" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-27" value="4" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-28" value="List/Array&lt;br&gt;to String" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-29" value="DF to SEDF" style="shape=label;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-38" value="Features (Min)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="420" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-39" value="&#39;TrackId&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cWEQYW-wMEr-QUB3o1_-38">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-40" value="&#39;Activity_ML&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cWEQYW-wMEr-QUB3o1_-38">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-cWEQYW-wMEr-QUB3o1_-42" value="DataFrame&lt;br&gt;(Points)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
